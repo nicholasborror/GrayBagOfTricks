@@ -1,0 +1,285 @@
+{
+  "Giant Weasel": {
+    "name": "Giant Weasel",
+    "ac": 13,
+    "hp": 1,
+    "hpFormula": "1d4-1",
+    "speed": "30 ft.",
+    "str": 3,
+    "dex": 16,
+    "con": 8,
+    "int": 2,
+    "wis": 12,
+    "cha": 3,
+    "skills": "Perception +3, Stealth +5",
+    "senses": "Passive Perception 13",
+    "languages": "--",
+    "cr": "0 (10 XP)",
+    "proficiency": "+2",
+    "traits": [
+      "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "bonus": 5,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1",
+        "damageType": "piercing"
+      }
+    ]
+  },
+  "Giant Rat": {
+    "name": "Giant Rat",
+    "ac": 12,
+    "hp": 7,
+    "hpFormula": "2d6",
+    "speed": "30 ft.",
+    "str": 7,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 10,
+    "cha": 4,
+    "traits": [
+      "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Pack Tactics. The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 ft. of the creature and the ally isn’t incapacitated."
+    ],
+    "senses": "Darkvision 60 ft., Passive Perception 10",
+    "languages": "--",
+    "cr": "1/8 (25 XP)",
+    "proficiency": "+2",
+    "actions": [
+      {
+        "name": "Bite",
+        "bonus": 4,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d4+2",
+        "damageType": "piercing"
+      }
+    ]
+  },
+  "Badger": {
+    "name": "Badger",
+    "ac": 10,
+    "hp": 3,
+    "hpFormula": "1d4+1",
+    "speed": "20 ft., burrow 5 ft.",
+    "str": 4,
+    "dex": 11,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "traits": [
+      "Keen Smell. The badger has advantage on Wisdom (Perception) checks that rely on smell."
+    ],
+    "senses": "Darkvision 30 ft., Passive Perception 11",
+    "languages": "--",
+    "cr": "0 (10 XP)",
+    "proficiency": "+2",
+    "multiattackIndices": [0,1],
+    "actions": [
+      {
+        "name": "Bite",
+        "bonus": 2,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d4+1",
+        "damageType": "piercing"
+      },
+      {
+        "name": "Claws",
+        "bonus": 2,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d4+1",
+        "damageType": "slashing"
+      }
+    ]
+  },
+  "Boar": {
+    "name": "Boar",
+    "ac": 11,
+    "hp": 11,
+    "hpFormula": "2d8+2",
+    "speed": "40 ft.",
+    "str": 13,
+    "dex": 11,
+    "con": 12,
+    "int": 2,
+    "wis": 9,
+    "cha": 5,
+    "traits": [
+      "Charge. If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage and must succeed on a DC 11 Strength save or be knocked prone.",
+      "Relentless. If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+    ],
+    "senses": "Passive Perception 9",
+    "languages": "--",
+    "cr": "1/4 (50 XP)",
+    "proficiency": "+2",
+    "actions": [
+      {
+        "name": "Tusk",
+        "bonus": 3,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d6+1",
+        "damageType": "slashing"
+      }
+    ]
+  },
+  "Panther": {
+    "name": "Panther",
+    "ac": 12,
+    "hp": 13,
+    "hpFormula": "3d8",
+    "speed": "50 ft., climb 40 ft.",
+    "str": 14,
+    "dex": 15,
+    "con": 10,
+    "int": 3,
+    "wis": 14,
+    "cha": 7,
+    "skills": "Perception +4, Stealth +6",
+    "traits": [
+      "Keen Smell. The panther has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Pounce. If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength save or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
+    ],
+    "senses": "Passive Perception 14",
+    "languages": "--",
+    "cr": "1/4 (50 XP)",
+    "proficiency": "+2",
+    "actions": [
+      {
+        "name": "Bite",
+        "bonus": 4,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d6+2",
+        "damageType": "piercing"
+      },
+      {
+        "name": "Claw",
+        "bonus": 4,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d4+2",
+        "damageType": "slashing"
+      }
+    ]
+  },
+  "Giant Badger": {
+    "name": "Giant Badger",
+    "ac": 10,
+    "hp": 13,
+    "hpFormula": "2d8+4",
+    "speed": "30 ft., burrow 10 ft.",
+    "str": 13,
+    "dex": 10,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "traits": [
+      "Keen Smell. The badger has advantage on Wisdom (Perception) checks that rely on smell."
+    ],
+    "senses": "Darkvision 30 ft., Passive Perception 11",
+    "languages": "--",
+    "cr": "1/4 (50 XP)",
+    "proficiency": "+2",
+    "multiattackIndices": [0,1],
+    "actions": [
+      {
+        "name": "Bite",
+        "bonus": 3,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "1d6+1",
+        "damageType": "piercing"
+      },
+      {
+        "name": "Claws",
+        "bonus": 3,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "2d4+1",
+        "damageType": "slashing"
+      }
+    ]
+  },
+  "Dire Wolf": {
+    "name": "Dire Wolf",
+    "ac": 14,
+    "hp": 37,
+    "hpFormula": "5d10+10",
+    "speed": "50 ft.",
+    "str": 17,
+    "dex": 15,
+    "con": 15,
+    "int": 3,
+    "wis": 12,
+    "cha": 7,
+    "skills": "Perception +3, Stealth +4",
+    "traits": [
+      "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Pack Tactics. The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 ft. of the creature and the ally isn’t incapacitated."
+    ],
+    "senses": "Passive Perception 13",
+    "languages": "--",
+    "cr": "1 (200 XP)",
+    "proficiency": "+2",
+    "actions": [
+      {
+        "name": "Bite",
+        "bonus": 5,
+        "reach": "5 ft.",
+        "target": "one target",
+        "damage": "2d6+3",
+        "damageType": "piercing",
+        "extra": "If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      }
+    ]
+  },
+  "Giant Elk": {
+    "name": "Giant Elk",
+    "ac": 14,
+    "hp": 42,
+    "hpFormula": "5d12+10",
+    "speed": "60 ft.",
+    "str": 19,
+    "dex": 16,
+    "con": 14,
+    "int": 7,
+    "wis": 14,
+    "cha": 10,
+    "skills": "Perception +4",
+    "traits": [
+      "Charge. If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage and must succeed on a DC 14 Strength saving throw or be knocked prone."
+    ],
+    "senses": "Passive Perception 14",
+    "languages": "Understands Common, Elvish, and Sylvan but can’t speak them",
+    "cr": "2 (450 XP)",
+    "proficiency": "+2",
+    "actions": [
+      {
+        "name": "Ram",
+        "bonus": 6,
+        "reach": "10 ft.",
+        "target": "one target",
+        "damage": "2d6+4",
+        "damageType": "bludgeoning"
+      },
+      {
+        "name": "Hooves",
+        "bonus": 6,
+        "reach": "5 ft.",
+        "target": "one prone creature",
+        "damage": "4d8+4",
+        "damageType": "bludgeoning"
+      }
+    ]
+  }
+}
