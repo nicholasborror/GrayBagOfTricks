@@ -17,7 +17,7 @@
     .damage-result.critical { color:red; font-weight:bold; }
     .roll-output { font-family:monospace; white-space:pre-wrap; margin-top:8px; }
     .notes { font-size:0.9em; margin-bottom:8px; }
-	.github-link { position: absolute; top: 10px; right: 10px; z-index: 1000; }
+    .github-link { position: absolute; top: 10px; right: 10px; z-index: 1000; }
     .github-link img { width: 24px; height: 24px; opacity: 0.6; transition: opacity 0.2s ease; }
     .github-link img:hover {opacity: 1; }
 
