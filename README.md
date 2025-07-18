@@ -2,7 +2,7 @@
 
 A simple PHP + JSON web app that “summons” three random beasts from the D&D Gray Bag of Tricks so you can manage their actions without slowing down the game. 
 Click the button to roll d8 (×3), look up each beast’s full stat block, and manage combat rolls (attack & damage with normal/adv/dis, crits & fails, HP tracking).
-Based on D&D 5th Ed (2014)
+Based on D&D 5th Ed (2014).
 
 ## Screenshot and demo
 Check out the live demo here: [Gray Bag of Tricks Demo](https://graybagoftricks.com/)
